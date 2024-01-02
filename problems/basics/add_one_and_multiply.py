@@ -3,10 +3,12 @@ def add_one_and_multiply(a, x):
 
     ### YOUR CODE GOES HERE
     # Replace "None" with the correct expression
-    r = None
+    r = (a+1)*x
+    print(r)
 
     ### DO NOT MODIFY THE FOLLOWING LINE!
     return r
+    
 
 
 #############################################################
@@ -53,3 +55,4 @@ def test_add_one_and_multiply_5():
 
 def test_add_one_and_multiply_6():
     do_test_add_one_and_multiply(a=-11, x=2, expected=-20)
+    
