@@ -8,7 +8,14 @@ def peep(p, e):
     """
 
     ### Replace pass with your code
-    pass
+    first = p * e * e * p
+    second = p**e * p
+    print(first)
+    print(second)
+    if first == second:
+        return True
+    else:
+        return False
 
 
 #############################################################
@@ -50,3 +57,5 @@ def test_peep_5():
 
 def test_peep_6():
     do_test_peep(p=2, e=3, expected=False)
+    
+test_peep_1()

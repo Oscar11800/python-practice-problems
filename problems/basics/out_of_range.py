@@ -1,15 +1,7 @@
 
 def out_of_range(x, lb, ub):
     """ Is x outside the range lb to ub (inclusive)?"""
-    if x <= ub and x >=  lb:
-        r = False
-    else:
-        r = True
-    ### YOUR CODE GOES HERE
-    # Replace "None" with the correct expression
-
-    ### DO NOT MODIFY THE FOLLOWING LINE!
-    return r
+    return not (lb <= x <= ub)
 
 
 #############################################################

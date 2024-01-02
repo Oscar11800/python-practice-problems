@@ -10,13 +10,10 @@ def number_string(x):
     else:
         str = "ZERO"
 
-    ### YOUR CODE GOES HERE
-    # Replace the following line with your code.
-    # After running your code, variable s should contain the value
-    # we ask you to compute in this exercise.
+
     s = str
 
-    ### DO NOT MODIFY THE FOLLOWING LINE!
+
     return s
 
 
