@@ -3,12 +3,18 @@ def number_string(x):
     Given a number x, produce a string: "POSITIVE", "NEGATIVE", "ZERO"
     (depending on whether the number is positive, negative, or zero)
     """
+    if x > 0:
+        str = "POSITIVE"
+    elif x < 0:
+        str = "NEGATIVE"
+    else:
+        str = "ZERO"
 
     ### YOUR CODE GOES HERE
     # Replace the following line with your code.
     # After running your code, variable s should contain the value
     # we ask you to compute in this exercise.
-    s = None
+    s = str
 
     ### DO NOT MODIFY THE FOLLOWING LINE!
     return s
